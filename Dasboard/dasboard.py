@@ -116,7 +116,6 @@ min_date = pd.to_datetime(day_df['dateday']).dt.date.min()
 max_date = pd.to_datetime(day_df['dateday']).dt.date.max()
  
 with st.sidebar:
-  
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
