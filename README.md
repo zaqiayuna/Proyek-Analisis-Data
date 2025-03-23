@@ -1,7 +1,3 @@
-##STREAMLIT VIEW
-view the dasboard https://rentalsepedaa.streamlit.app/
-![image](https://github.com/user-attachments/assets/84e656cc-b5d1-4369-a8af-1d1c342325f6)
-
 
 ##Instalasi
 1. Clone repository ke komputer lokal
