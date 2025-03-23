@@ -20,7 +20,7 @@ view the dasboard https://rentalsepedaa.streamlit.app/
 1. Masuk ke direktori proyek (Local):
 
     ```shell
-    cd dashboard/
-    streamlit run dashboard.py
+    cd dashboard
+    streamlit run Dashboard.py
     ```
-    Atau bisa dengan kunjungi website ini [Project Data Analytics](https://rentalsepedaa.streamlit.app/)
+    
