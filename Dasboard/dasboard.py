@@ -184,7 +184,7 @@ colors3=["tab:pink", "tab:red", "tab:pink", "tab:red", "tab:pink", "tab:red", "t
 # Berdasarkan workingday
 sns.barplot(
     x='workingday',
-    y='count',
+    y='sum',
     data=workingday_rent_df,
     palette=colors1,
     ax=axes[0])
@@ -200,7 +200,7 @@ axes[0].tick_params(axis='y', labelsize=10)
 # Berdasarkan holiday
 sns.barplot(
   x='holiday',
-  y='count',
+  y='sum',
   data=holiday_rent_df,
   palette=colors2,
   ax=axes[1])
@@ -216,7 +216,7 @@ axes[1].tick_params(axis='y', labelsize=10)
 # Berdasarkan weekday
 sns.barplot(
   x='weekday',
-  y='count',
+  y='sumt',
   data=weekday_rent_df,
   palette=colors3,
   ax=axes[2])
