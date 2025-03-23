@@ -17,6 +17,6 @@
 
     ```shell
     cd dashboard
-    streamlit run dashboard.py
+    streamlit run Dasboard.py
     ```
     
