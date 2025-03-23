@@ -216,7 +216,7 @@ axes[1].tick_params(axis='y', labelsize=10)
 # Berdasarkan weekday
 sns.barplot(
   x='weekday',
-  y='sumt',
+  y='sum',
   data=weekday_rent_df,
   palette=colors3,
   ax=axes[2])
